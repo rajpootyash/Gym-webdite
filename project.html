@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first project</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(images/r.webp);
+            color: white;
+            font-family: initial;
+
+        }
+
+        .left {
+            display: inline block;
+            /* border: gray solid 2px; */
+            position: absolute;
+            left: 30px;
+            top: 0px;
+            margin: 20px;
+
+        }
+
+        .mid {
+            display: block;
+            /* border: #a07ea2 solid 2px; */
+            width: 33%;
+            margin: 12px auto;
+        }
+
+        .right {
+            display: inline bock;
+            border: black solid 3px;
+            position: absolute;
+            right: 30px;
+            top: 0px;
+            margin: 20px;
+
+            background-color: black;
+
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 15px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+
+
+        }
+
+        .left img {
+            width: 50px;
+            filter: invert(100%);
+            border: gray;
+        }
+
+        .btn {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background: black;
+            margin: 2px;
+            color: white;
+            padding: 2px 14px;
+            /* border: gray 2px solid; */
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .container {
+            border: 3px solid #4b564b;
+            margin: 136px 402px;
+            padding: 44px;
+            width: 341px;
+            border-radius: 12px;
+            font-size: 13px;
+
+
+        }
+
+        .form-group input {
+            font-family: 'baloo bhai', cursiv;
+            text-align: center;
+            display: block;
+            width: 356px;
+            padding: 5px;
+            border: 2px solid black;
+            margin: 3px auto;
+            font-size: 12px;
+        }
+
+        .container h1 {
+            text-align: center;
+
+        }
+
+        .container button {
+            display: block;
+            width: 109%;
+            margin: auto;
+        }
+    </style>
+</head>
+<!-- <link rel="stylesheet" href=""> -->
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/download.png">
+            <div>Akash fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+
+                <li>
+                    <a href="#" class="active">home</a>
+
+                <li><a href="#"> about us</a></li>
+                <li><a href="#"> fitness colculater</a></li>
+                <li><a href="#"> contact us</a></li>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <botton class="btn">call us</botton>
+            <botton class="btn">Email</botton>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym of delhi now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Localty">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
